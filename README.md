@@ -5,22 +5,35 @@
 **Servidor HTTP con Node.js y Express**
 ---
 
+### Primero
+Clonar el repositorio y correr `npm install`
+
+Para inciar el servidor correr `npm test`
+
+Por defecto iniciara en [http://127.0.0.1:8080]
+
+### Dependencias
+- dotenv
+- express
+- nodemon
+- eslint
+
 ### Rutas
 
-> Cualquier otra petición fuera de *__/api__* es redirigida a la ruta *__/404.html__* de los archivos públicos.
+> Cualquier otra petición fuera de `/api` es redirigida a la ruta `/404.html` de los archivos públicos.
 
-> Cualquier ruta dentro de *__/api__* será gestionada por el enrutador y sus respuestas serán siempre en *JSON*
+> Cualquier ruta dentro de `/api` será gestionada por el enrutador y sus respuestas serán siempre en *JSON*
 
-> Todos los endpoints devuelven los datos en *JSON* con hasta tres propiedades *__{status, message, payload}__*
+> Todos los endpoints devuelven los datos en *JSON* con hasta tres propiedades `{status, message, payload}`
 
-> En caso de éxito *__message__* devuelve *__'Success'__*, de lo contrario devuelve la descripción del error.
+> En caso de éxito `message` devuelve `'Success'`, de lo contrario devuelve la descripción del error.
 
-> Cuando ejecuta la petición correctamente también devuelve *__payload__* que tiene el objeto con la información relevante.
+> Cuando ejecuta la petición correctamente también devuelve `payload` que tiene el objeto con la información relevante.
 
-> En caso de no encontrarse la ruta dentro de *__/api__* la respuesta también es en *JSON*
+> En caso de no encontrarse la ruta dentro de `/api` la respuesta también es en *JSON*
 
 - *GET* => /api/products => *Lista todos los productos*
-- *POST* => /api/products => *Crea un producto '__{name, description, price, manufacturer, categoty}__'*
-- *GET* => /api/products/:id => *Lista un producto por __'id'__*
-- *PUT* => /api/products/:id => *Actualiza un producto '__{id, name, description, price, manufacturer, categoty}__'*
-- *DELETE* => /api/products/:id => *Elimina un producto por '__id__'*
+- *POST* => /api/products => *Crea un producto* `{name, description, price, manufacturer, categoty}`
+- *GET* => /api/products/:id => *Lista un producto por* `id`
+- *PUT* => /api/products/:id => *Actualiza un producto* `{id, name, description, price, manufacturer, categoty}`
+- *DELETE* => /api/products/:id => *Elimina un producto por* `id`
