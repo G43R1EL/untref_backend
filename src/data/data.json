@@ -1,0 +1,90 @@
+[
+    {
+        "id": 9408096253412,
+        "name": "Procesador Intel Core i7-9700K",
+        "description": "Potente procesador Intel de 8 núcleos y 3.6 GHz para un rendimiento excepcional.",
+        "price": 359.99,
+        "manufacturer": "Intel",
+        "category": "Procesadores"
+    },
+    {
+        "id": 6395688810264,
+        "name": "Procesador AMD Ryzen 5 5600X",
+        "description": "Procesador AMD de 6 núcleos y 3.7 GHz con excelente relación precio-rendimiento.",
+        "price": 299.99,
+        "manufacturer": "AMD",
+        "category": "Procesadores"
+    },
+    {
+        "id": 7621039824939,
+        "name": "Placa madre ASUS ROG Strix Z390-E Gaming",
+        "description": "Placa madre ATX de alta gama con socket LGA1151 para una configuración de juegos de élite.",
+        "price": 239.99,
+        "manufacturer": "ASUS",
+        "category": "Placas madre"
+    },
+    {
+        "id": 2785984463734,
+        "name": "Placa madre MSI B450 TOMAHAWK MAX",
+        "description": "Placa madre ATX con socket AM4 y amplia compatibilidad para diferentes configuraciones.",
+        "price": 119.99,
+        "manufacturer": "MSI",
+        "category": "Placas madre"
+    },
+    {
+        "id": 1114742275146,
+        "name": "Memoria RAM Corsair Vengeance LPX 16GB (2 x 8GB)",
+        "description": "Kit de memoria RAM de alto rendimiento con una capacidad de 16GB y frecuencia de 3200 MHz.",
+        "price": 99.99,
+        "manufacturer": "Corsair",
+        "category": "Memorias RAM"
+    },
+    {
+        "id": 6323697540092,
+        "name": "Memoria RAM Kingston HyperX Fury 8GB",
+        "description": "Módulo de memoria RAM de 8GB con frecuencia de 2666 MHz para un rendimiento fluido.",
+        "price": 49.99,
+        "manufacturer": "Kingston",
+        "category": "Memorias RAM"
+    },
+    {
+        "id": 5257741877808,
+        "name": "Tarjeta gráfica NVIDIA GeForce RTX 3080",
+        "description": "Poderosa tarjeta gráfica con 10GB de memoria GDDR6X y tecnología de trazado de rayos.",
+        "price": 799.99,
+        "manufacturer": "NVIDIA",
+        "category": "Tarjetas gráficas"
+    },
+    {
+        "id": 6629498102049,
+        "name": "Tarjeta gráfica AMD Radeon RX 6700 XT",
+        "description": "Tarjeta gráfica de gama alta con 12GB de memoria GDDR6 y soporte para tecnologías de juego avanzadas.",
+        "price": 499.99,
+        "manufacturer": "AMD",
+        "category": "Tarjetas gráficas"
+    },
+    {
+        "id": 3357552862038,
+        "name": "Disco SSD Samsung 970 EVO Plus 500GB",
+        "description": "Disco SSD NVMe M.2 de alta velocidad con capacidad de almacenamiento de 500GB.",
+        "price": 129.99,
+        "manufacturer": "Samsung",
+        "category": "Discos SSD"
+    },
+    {
+        "id": 5876242334569,
+        "name": "Disco SSD Crucial MX500 1TB",
+        "description": "Disco SSD de 1TB en formato SATA 2.5\" para un rendimiento rápido y confiable.",
+        "price": 99.99,
+        "manufacturer": "Crucial",
+        "category": "Discos SSD"
+    },
+    {
+        "id": 6056465401069,
+        "name": "Producto de prueba",
+        "description": "Descripcion de prueba",
+        "price": "240",
+        "manufacturer": "OEM",
+        "category": "test"
+    }
+]
