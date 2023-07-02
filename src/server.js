@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 8080;
 const HOST = process.env.HOST || 'localhost';
 
 // Middlewares
+server.use(express.static('src/public'));
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
@@ -18,7 +19,12 @@ server.use(express.urlencoded({ extended: true }));
 const router = require('./routes/router');
 
 // Use router
-server.use(router);
+server.use('/api', router);
+
+// 404 Page
+server.get('*', (req, res) => {
+  res.status(404).redirect('/404.html');
+});
 
 // Start server
 server.listen(PORT, HOST, () => {

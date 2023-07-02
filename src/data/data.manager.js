@@ -70,6 +70,7 @@ async function addProduct(product) {
   if (!productCheck(product)) { throw new Error('Product is not valid'); }
   const products = await read();
   const newProduct = { id: generateId(), ...product };
+  newProduct.price = Number(newProduct.price.replace(',', '.')); // Replace comma with dot and save as number
   products.push(newProduct);
   await write(products);
   return newProduct;

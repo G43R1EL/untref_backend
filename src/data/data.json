@@ -78,13 +78,5 @@
         "price": 99.99,
         "manufacturer": "Crucial",
         "category": "Discos SSD"
-    },
-    {
-        "id": 6056465401069,
-        "name": "Producto de prueba",
-        "description": "Descripcion de prueba",
-        "price": "240",
-        "manufacturer": "OEM",
-        "category": "test"
     }
 ]
